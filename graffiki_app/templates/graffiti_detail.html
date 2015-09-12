@@ -1,0 +1,25 @@
+{% extends "graffiki_app/base.html" %}
+
+{% block content %}
+
+	Total number of comments: {{ comments.count }}<br>
+	{% for comment in comments.all %} 
+		{% if user.is_authenticated or comment.approved %}
+		<div class="comment">
+			<div class="date">
+				{{ comment.created_date }}
+				{% if not comment.approved %}
+					<a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+					<a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
+				{% endif %}
+			</div>
+			<strong>{{ comment.author }}</strong>
+			<p>{{ comment.text|linebreaks }}</p>
+		</div>
+		{% endif %}
+	{% empty %}
+		<p>No comments here yet :(</p>
+	{% endfor %}
+	<a class="btn btn-default" href="{% url 'add_comment_to_graffiti' pk=graffiti.pk%}">Add a comment</a><br><br>
+	
+{% endblock %}

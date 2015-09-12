@@ -1,0 +1,27 @@
+{% extends "graffiki_app/base.html" %}
+
+{% block content %}
+
+{% if form.errors %}
+    <h4>Your username and password didn't match. Please try again.</h4>
+{% endif %}
+
+<form action="{% url 'django.contrib.auth.views.login' %}" method="post">
+{% csrf_token %}
+<table>
+<tr>
+    <td><h2>{{ form.username.label_tag }}</h2></td>
+    <td><h2>{{ form.username }}</h2></td>
+</tr>
+<tr>
+    <td><h2>{{ form.password.label_tag }}</h2></td>
+    <td><h2>{{ form.password }}</h2></td>
+</tr>
+</table>
+
+<input type="submit" value="Login" />
+<input type="hidden" name="next" value="{{ next }}" />   
+<h2><a href = "/admin/">Admin Login</a><h2>     
+</form>
+  
+{% endblock %}

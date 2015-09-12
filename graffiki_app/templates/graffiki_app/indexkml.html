@@ -1,0 +1,77 @@
+{% extends "graffiki_app/base.html" %}
+{% block content %}
+	<head>
+		<title>Google Maps page</title>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqP4-xRsz-OkST5aq80-ILN-QUc1yKHN8"></script>
+		<script>
+			// static kmz file mapping to Pythonanywhere
+			var kmlUrl = 'http://blueberrynfig.pythonanywhere.com/static/graffiki_app/graffiti.kmz'; 
+			var myLatLng = new google.maps.LatLng(49.260872, -123.113953);
+			var iconBase = 'C:/Users/Wendy Hu/Documents/Study/UBC/CPSC310/';
+			
+			// create a new Google Map object and attach the map to the map-canvas div
+			function initialize() {
+				var mapCanvas = document.getElementById('map-canvas');
+				var mapOptions = {
+					center: new google.maps.LatLng(44.5403, -78.5463),
+					zoom: 10,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions);
+					
+				loadKmlLayer(kmlUrl, map);
+				
+			}	
+			
+			google.maps.event.addDomListener(window, 'load', initialize);
+			
+			// create a new KMLLayer object
+			function loadKmlLayer(kmlUrl, map) {
+				var kmlOptions = {
+					suppressInfoWindows: false,
+					preserveViewport: false,
+					map: map
+				};
+				var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
+				
+				{% comment %}
+				google.maps.event.addListener(kmlLayer, 'click', function(event) {
+					var content = event.featureData.infoWindowHtml;
+					var testimonial = document.getElementById('capture');
+					testimonial.innerHTML = content;
+				});
+				{% endcomment %}
+			}
+			
+		</script>
+			
+
+
+	</head>
+	
+	<nav>
+	<div id="status"><!--fb share button--><a href="https://www.facebook.com/dialog/feed?
+  app_id=505986829554923&
+  link=https://fast-headland-9620.herokuapp.com/graffiki_app&
+  picture=http://i59.tinypic.com/2v80cw0.png&
+  name=Graffiki!&
+  caption=Graffiki&
+  description=I'm%20using%20Graffiki%20to%20check%20out%20the%20best%20graffiti%20sites%20in%20Vancouver!&
+  redirect_uri=https://fast-headland-9620.herokuapp.com/graffiki_app" target="_blank">
+<img src="http://shopify.barrelny.com/wp-content/uploads/2014/06/facebook-share-button.png" height="25"></a></div>
+	</nav>
+
+
+
+
+	
+	<body>
+		<div id="capture"></div>
+		<div id="fb-root"></div>
+
+
+
+	</body>
+	
+	<section id="map-canvas"></section>
+{% endblock %}

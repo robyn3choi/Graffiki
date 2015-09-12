@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<Schema name="Graffiti" id="Graffiti">
+<SimpleField type="string" name="COUNT"/>
+</Schema>
+<Style id="GraffitiStyler_KMLStyler_2">
+<IconStyle>
+<color>ff00ff00</color>
+<colorMode>normal</colorMode>
+<scale>0.5</scale>
+<Icon>
+<href>images/U6.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+<LineStyle>
+<colorMode>random</colorMode>
+</LineStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+</PolyStyle>
+</Style>
+<Style id="GraffitiStyler_KMLStyler_3">
+<IconStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<scale>0.5</scale>
+<Icon>
+<href>images/U5.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+</LineStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+</PolyStyle>
+</Style>
+<name>graffiti</name>
+<visibility>1</visibility>
+<Folder id="kml_ft_Graffiti">
+<name>Graffiti</name>
+<Placemark id="kml_1">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.090425526949,49.2238602003454,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2">
+<name>4</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>4</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_3</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">4</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.113935739267,49.2613158916217,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_3">
+<name>4</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>4</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_3</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">4</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.113486260577,49.2832812183075,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_4">
+<name>2</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>2</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">2</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.120131523468,49.2630182016568,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="kml_8000">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.12552390612,49.2330692064004,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8001">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.059352719637,49.2625349082998,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8002">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.089502717402,49.277116407064,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8003">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.101873059895,49.2411571728458,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8004">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.186542005007,49.2628148107023,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8005">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.059856345565,49.2652561564493,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8006">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.115134853171,49.2815322203419,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8007">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.115054944714,49.2815813236561,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8008">
+<name>1</name>
+<Snippet> </Snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>COUNT</th>
+<td>1</td>
+</tr></table></center>]]></description>
+<styleUrl>#GraffitiStyler_KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Graffiti">
+<SimpleData name="COUNT">1</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.114983700458,49.2816313268063,0 </coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>
